@@ -34,6 +34,7 @@ header {
     float: left;
     line-height: 60px;
     margin: 0 50px;
+    height: 60px;
 }
 
 .logo {
@@ -52,13 +53,63 @@ header {
     margin: 0 20px;
 }
 
+
 .nav-items li a {
     text-decoration: none;
     color: #ffffff;
     letter-spacing: 2px;
     padding: 5px 10px;
+    text-transform: capitalize;
+
 }
 
 .nav-items li a:hover{
-    color: #ffffff;
+    color: #EBEBE3;
 }
+
+.nav-items li.active a{
+    color: #EBEBE3;
+}
+
+
+.banner-wrapper {
+    position: absolute;
+    /* right: 0; */
+    bottom: 0;
+    color: #D9D9B2;
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+}
+
+.text-container {
+    margin: 0 0 60px 100px;
+    letter-spacing: 1.5px;
+}
+
+.text-container h2 {
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.text-container p {
+    font-size: 17px;
+}
+
+.btn {
+    margin-top: .7rem;
+    padding: 15px 70px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #EBEBE3;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: rgba(0, 0, 0, 1);
+    background-color: #EBEBE3;
+    transition-duration: .5s;
+}
+
