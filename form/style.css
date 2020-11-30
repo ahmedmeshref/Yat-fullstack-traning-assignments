@@ -18,7 +18,7 @@ body {
     height: auto;
     opacity: 1;
     box-shadow: 0 0 20px #000000;
-    border-bottom: 1.6em solid rgb(66, 53, 43);
+    border-bottom: 1em solid rgb(66, 53, 43);
 }
 
 .center {
@@ -68,8 +68,16 @@ body {
     background-color: rgba(66, 53, 43, 0.2);
 }
 
-.form-group input[type="radio"] {
-    display: inline-block;
+
+.education {
+    display: inline;
+    width: 100%;
+    border: 0;
+    font-size: 1em;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(66, 53, 43, 0.7);
+    border-radius: 5px;
+    padding: .2em 0;
 }
 
 .register-btn {
