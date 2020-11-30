@@ -5,53 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            border: 1px solid #000000; 
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid #000000;
+        }
+
+        audio {
+            margin: 20px 0;
+            /* background-color: #000000; */
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <h1>Blog</h1>
-    </header>
-    <main>
-        <div class="content-wrapper">
-            <h3>Yat Blog</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio porro nostrum in deserunt,
-                eum, maiores, aliquid deleniti repellat expedita explicabo voluptate! Ipsam velit perspiciatis
-                delectus quia numquam, vero dignissimos libero corrupti laboriosam harum vel iusto maxime
-                veniam soluta quod. Non pariatur minima veniam ipsum officiis, quos aliquam nihil ullam iure.
-            </p>
-            <img src="./img/123.jpg" alt="fe eyh yad" title="fe eyh">
-        </div>
-        <div class="list">
-            <ul>
-                <li>CSS</li>
-                <li>JS</li>
-            </ul>
-        </div>
-        <div>
-            <table class="tbl">
-                <tr>
-                    <th>fName</th>
-                    <th>lName</th>
+    <marquee direction="right" class="panel">
+        YAT LEARNING
+    </marquee>
 
-                </tr>
-                <tr>
-                    <td>Ahmed</td>
-                    <td>Meshref</td>
-                </tr>
-            </table>
-        </div>
-        <div class="links">
-            <a href="http://www.google.com">Google</a>
-            <a href="#">home</a>
-        </div>
-        <div>
-            <marquee direction="right" class="panel">
-                Meshref
-            </marquee>
-        </div>
-    </main>
+    <table>
+        <tr>
+            <td>fName</td>
+            <td>lName</td>
+        </tr>
+        <tr>
+            <td>Ahmed</td>
+            <td>Meshref</td>
+        </tr>
+    </table>
+
+    <audio src="p.mp3" type="audio/mp3" controls autoplay></audio>
+
+    <h2>visit <a href="https://www.youtube.com">Youtube</a></h2>
+
+
+    <form action="">
+        <label for="email">Email</label>
+        <input type="email">
+    </form>
+
 </body>
 
 </html>

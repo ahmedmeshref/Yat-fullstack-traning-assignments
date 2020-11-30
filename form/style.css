@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #cccccc;
     background-image: url('./img/background.jpg');
     background-repeat: no-repeat;
@@ -10,10 +10,81 @@ body {
 }
 
 .regsiter-form {
-    border: 1px solid #888888;
-    display: inline-block;
+    /* display: inline-block; */
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 7em;
+    width: 500px;
+    height: auto;
+    opacity: 1;
+    box-shadow: 0 0 20px #000000;
+    border-bottom: 1.6em solid rgb(66, 53, 43);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container {
     padding: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 2em;
+    margin-top: .4em;
+    color: rgb(139, 69, 19);
+    letter-spacing: 1.5px;
+}
+
+.form-group {
+    margin: 1.5em .5em;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .45em;
+    letter-spacing: 1px;
+}
+
+.regsiter-form input[type="text"], .regsiter-form input[type="password"] {
+    height: 3em;
+    width: 95%;
+    font-size: .9em;
+    padding: 0 1em;
+    outline: none;
+    clear: both;
+    background-color: rgba(139, 69, 19, .1);
+    border: 0;
+    border-radius: 5px;
+}
+
+.regsiter-form input:focus {
+    background-color: rgba(66, 53, 43, 0.2);
+}
+
+.form-group input[type="radio"] {
+    display: inline-block;
+}
+
+.register-btn {
+    background-color: rgba(66, 53, 43, 0.7);
+    color: white;
+    padding: 16px 20px;
+    margin-top: 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.register-btn:hover {
+    background-color: rgba(66, 53, 43, 1);
 }
