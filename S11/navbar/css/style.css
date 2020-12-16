@@ -21,16 +21,17 @@ a {
     color: #ffffff;
     font-size: 1em;
     letter-spacing: .5px;
+    line-height: 50px;
 }
 
 .container a {
     text-transform: capitalize;
     height: 100%;
-    padding: 15px 50px;
+    padding: 14px 50px;
     color: inherit;
     font-size: inherit;
     letter-spacing: inherit;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .container a:hover {
@@ -46,34 +47,35 @@ a {
 .drop-btn {
     height: 100%;
     width: 100%;
-    padding: 15px 50px;
+    padding: 14px 50px;
     color: inherit;
     font-size: inherit;
     letter-spacing: inherit;
     cursor: pointer;
-    border-radius: 5px;
     border: none;
     outline: none !important;
     text-transform: capitalize;
     background-color: inherit;
+    font-family: inherit;
+    border-radius: 2px 2px 0 0;
 }
 
 .dropdown-wrapper:hover .drop-btn {
     background-color: rgba(0, 0, 0, .4);
 }
 
-.dropdown-wrapper:hover .dropdown-content{
+.dropdown-wrapper:hover .dropdown-content {
     display: block;
 }
 
 .dropdown-content {
     display: none;
-    position: absolute;  
+    position: absolute;
     z-index: 1;
     background-color: #333;
-    width: 100%;
+    min-width: 100%;
     box-shadow: 0px 8px 16px rgba(255, 255, 0, 0.2);
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 2px 2px;
 }
 
 .dropdown-content a {
@@ -82,6 +84,11 @@ a {
     font-size: inherit;
     text-transform: capitalize;
     letter-spacing: inherit;
-    padding: 10px 0px;
+    padding: 0px;
     text-align: center;
+    border-bottom: .5px solid #f1f1ff;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(102, 102, 102)
 }
