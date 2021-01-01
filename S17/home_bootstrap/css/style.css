@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: #333333;
+}
+
+ul {
+    list-style: none;
+}
+
+a, li {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+a:hover {
+    color: #f1f1f1;
+}
+
+nav {
+    max-height: 80px;
+    font-weight: 600;
+    margin-bottom: 15%;
+    margin-top: 1%;
+}
+
+.logo {
+    font-weight: inherit;
+}
+
+.nav-items-wrapper {
+    float: right;
+    line-height: 40px;
+}
+
+.nav-item {
+    display: inline;
+    margin-right: 1rem;
+    padding: .3rem;
+    font-weight: inherit;
+}
+
+.active {
+    border-bottom: 3px solid #ffffff;
+}
+
+.btn {
+    font-weight: 700;
+}
+
+.main-content p{
+    font-size: 1.1rem;
+}
