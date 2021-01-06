@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(200,0,0,1));
+    height: 100vh;
+    font-family: Poppins;
+}
+
+
+.form-wrapper {
+    border: 1px solid #000000;
+    border-radius: 2px;
+
+}
+
+.form-title {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.form-title p {
+    font-size: 1.3rem;
+    font-weight: 900;
+}
