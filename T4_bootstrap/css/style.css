@@ -11,8 +11,20 @@ body {
     opacity: 70%;
 }
 
+.navbar-brand {
+    letter-spacing: 1.2px;
+}
+
+.nav-item {
+    margin-right: 1.2rem;
+}
+
 .nav-link:hover {
     color: #f1f1f1 !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
 }
 
 .nav-menu {
