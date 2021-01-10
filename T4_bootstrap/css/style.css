@@ -4,19 +4,18 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+header {
     height: 100vh;
 }
 
-.navbar {
-    opacity: 70%;
+.opacity-90 {
+    opacity: 90%;
 }
 
 .navbar-brand {
     letter-spacing: 1.2px;
-}
-
-.nav-item {
-    margin-right: 1.2rem;
 }
 
 .nav-link:hover {
