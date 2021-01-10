@@ -1,21 +1,29 @@
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url('../img/cover.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-header {
-    height: 100vh;
-}
-
 .opacity-90 {
     opacity: 90%;
 }
 
+.mt-10 {
+    margin-top: 10rem;
+}
+
 .navbar-brand {
     letter-spacing: 1.2px;
+}
+
+.nav-item {
+    padding: 1px;
+}
+
+.nav-item:hover {
+    border-bottom: .3px solid #f1f1f1;
 }
 
 .nav-link:hover {
@@ -30,8 +38,8 @@ header {
     float: right !important;
 }
 
-.mt-10 {
-    margin-top: 10rem;
+.header-content {
+    padding-top: 35vh;
 }
 
 .header-text {
