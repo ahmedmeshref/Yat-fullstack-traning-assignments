@@ -4,6 +4,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
 }
 
 .opacity-90 {
@@ -12,6 +17,32 @@ body {
 
 .mt-10 {
     margin-top: 10rem;
+}
+
+/* Scroll Bar */
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 .navbar-brand {
