@@ -1,0 +1,55 @@
+body {
+    font-family: 'Oswald', 'Open Sans', sans-serif;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+header {
+    background-image: url("../img/bg_1.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0);
+    min-height: 80px;
+}
+
+.navbar {
+    padding-top: 1.4rem;
+    padding-bottom: 1rem;
+}
+
+.nav-link {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff !important;
+}
+
+
+.nav-link:hover {
+    color: #f1f1f1 !important;
+} 
+
+.header-section-container {
+    height: 65%;
+    width: 100%;
+    overflow: visible;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.header-section-container h1 {
+    padding: 20px 45px;
+    color: #f96015;
+    font-size: 3.5rem;
+    font-weight: 510;
+    display: inline-block;
+}
