@@ -1,5 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: 'Oswald', 'Open Sans', sans-serif;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-stretch: expanded;
 }
 
 .w-60 {
@@ -7,7 +12,7 @@ body {
 }
 
 header {
-    background-image: url("../img/bg_1.jpg");
+    background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
@@ -16,7 +21,7 @@ header {
 .sticky-nav {
     position: fixed;
     top: 0;
-    background-color: rgba(255, 255, 255, 0);
+    z-index: 1;
     min-height: 80px;
 }
 
@@ -32,10 +37,9 @@ header {
     color: #fff !important;
 }
 
-
 .nav-link:hover {
     color: #f1f1f1 !important;
-} 
+}
 
 .header-section-container {
     height: 65%;
@@ -52,4 +56,78 @@ header {
     font-size: 3.5rem;
     font-weight: 510;
     display: inline-block;
+}
+
+.gray-bg {
+    background-color: #f6f6f6;
+}
+
+.title {
+    font-size: 65px;
+    padding: 45px 0;
+    letter-spacing: -2px;
+    line-height: 96px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.simple-text {
+    max-height: 170px;
+    margin: auto;
+    width: 50%;
+    overflow: hidden;
+}
+
+.simple-text p {
+    font-size: 15px;
+    line-height: 20px;
+    vertical-align: middle;
+    font-weight: 300;
+    padding: 30px;
+    width: 85%;
+}
+
+
+.service-box {
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+.service-icon  {
+    margin-bottom: 20px;
+}
+
+.service-icon i {
+    color: #f96015;
+    font-size: 60px;
+}
+
+.service-name {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.service-description {
+    width: 85%;
+    margin: auto;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #5e5e5e;
+}
+
+.work-together-wrapper h3 {
+    color: #5e5e5e;
+    font-weight: 300;
+    font-weight: 30px;
+}
+
+.work-together-wrapper a {
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 15px;
 }
