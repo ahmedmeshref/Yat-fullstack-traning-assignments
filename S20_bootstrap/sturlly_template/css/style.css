@@ -7,6 +7,10 @@ body {
     font-stretch: expanded;
 }
 
+a {
+    text-decoration: none;
+}
+
 .w-60 {
     width: 60%;
 }
@@ -34,7 +38,6 @@ header {
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #fff !important;
 }
 
 .nav-link:hover {
@@ -87,13 +90,16 @@ header {
     width: 85%;
 }
 
-
 .service-box {
     padding-top: 60px;
     padding-bottom: 90px;
 }
 
-.service-icon  {
+.service-box:hover {
+    background-color: #fff !important;
+}
+
+.service-icon {
     margin-bottom: 20px;
 }
 
@@ -130,4 +136,27 @@ header {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 15px;
+}
+
+/* Menu style */
+
+.text-active {
+    color: rgba(0, 0, 0, .8);
+}
+
+.text-inactive {
+    color: rgba(0, 0, 0, .2);
+}
+
+.menu-link {
+    letter-spacing: -1.4px;
+    font-size: 20px;    
+    font-weight: 600;
+    display: block;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+}
+
+.menu-link:hover {
+    color: rgba(0, 0, 0, .9);
 }
