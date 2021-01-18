@@ -148,9 +148,6 @@ header {
     color: #b6b6b6;
 }
 
-.menu-wrapper {
-    padding: 50px 0 !important;
-}
 
 .menu-link {
     letter-spacing: -1.4px;
@@ -177,11 +174,23 @@ header {
 
 .img-description {
     /* visibility: hidden; */
-    opacity: 0;
-    height: 120px;
+    bottom: 0;
+    /* opacity: 0; */
+    height: 30%;
     width: 100%;
     /* transition effect. not necessary */
     transition: opacity .2s, visibility .2s;  
+}
+
+.img-description h2 {
+    font-size: 16px;
+    color: #f96015;
+    line-height: 24px;
+    margin: 0 0 8px;
+}
+
+.img-description span {
+    font-size: 14px;
 }
 
 .sample-work:hover .sample-work-img{
