@@ -1,8 +1,8 @@
 
 
-function fib(n) {
+function rec_fib(n) {
     let memo = {};
-    
+
     function find_memo(n) {
         if (n == 0) return 0;
         else if (n <= 2) return 1;
@@ -15,4 +15,20 @@ function fib(n) {
     return find_memo(n);
 }
 
-console.log(fib(1000));
+
+function fib(n) {
+    if (n < 0) return null;
+    else if (n == 0) return 0;
+    else if (n <= 2) return 1;
+    else {
+        let x = 0, y = 1, z = 1;
+        for (let i = 2; i <= n; i++) {
+            z = x + y;
+            [x, y] = [y, z];
+        }
+        return z;
+    }
+}
+
+
+console.log(fib(5));
