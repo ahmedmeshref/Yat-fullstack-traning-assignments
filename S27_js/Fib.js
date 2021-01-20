@@ -21,14 +21,14 @@ function fib(n) {
     else if (n == 0) return 0;
     else if (n <= 2) return 1;
     else {
-        let x = 0, y = 1, z = 1;
+        let x = 0, y = 1;
         for (let i = 2; i <= n; i++) {
-            z = x + y;
-            [x, y] = [y, z];
+            [x, y] = [y, x + y];    
         }
-        return z;
+        return y;
     }
 }
 
 
-console.log(fib(5));
+console.log(fib(10));
+console.log(rec_fib(10));
